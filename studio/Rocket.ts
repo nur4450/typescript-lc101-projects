@@ -40,10 +40,13 @@ addCargo(cargo: Cargo): boolean {
 addAstronaut(astronaut: Astronaut): boolean {
     if(this.canAdd(astronaut)){
     this.astronauts.push(astronaut);
-    return true;
+       return true;
     }else{
-        return false;
-    }   
+       return false;
+    }  
 }
 }
+
+
+
 
